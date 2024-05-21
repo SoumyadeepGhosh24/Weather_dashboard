@@ -1,0 +1,55 @@
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    padding: 110px;
+    background-image: url('backimg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .row {
+    position: relative;
+    z-index: 1;
+    /* background-color: rgba(255, 255, 255, 0.8); Change the opacity value as needed */
+  }
+
+  .search-item,
+  #delete-history {
+    cursor: pointer;
+  }
+  
+  /* .search-item:hover {
+    background-color: #f8f9fa;
+  } */
+  
+  .bg-light {
+    background-color: transparent !important;
+  }
+
+  @media (min-width: 1200px) {
+    .five-day-card {
+      max-width: 20%;
+      background-color: transparent !important;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .five-day-card {
+      min-width: 30%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .five-day-card {
+      min-width: 40%;
+    }
+  }
+  
+  @media (max-width: 335px) {
+    .five-day-card {
+      min-width: 90%;
+    }
+  }
